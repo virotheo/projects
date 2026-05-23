@@ -1,0 +1,11 @@
+KEY LOGGER PROJECT
+
+What does this script do?
+1) Keep running this script in background
+2) Always hopping for user keyboard entries
+3) Catch the entries and save them into a list
+4) Swap the list in results.txt file with datetime
+
+Lib used : 
+pyinput
+datetime
