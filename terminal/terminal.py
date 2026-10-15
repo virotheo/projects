@@ -3,7 +3,7 @@ import time
 
 def terminal():
     path = '/'
-    paths = 
+    paths = []
     while True:
         response = input("user$ ")
         parts = response.split()
