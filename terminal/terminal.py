@@ -15,6 +15,6 @@ def terminal():
         if response == 'pwd':
             print(f'path : {path}')
         if len(parts) == 2 and parts[0] == 'cd':
-            path = str(path) + str(parts[1])
+            path = str(path) + str(parts[1]) + str('/')
 
 terminal()            
